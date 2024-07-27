@@ -124,16 +124,6 @@
   - Creating revert commits
   - Reverting multiple commits
 
-### 8. GitHub Features
-- GitHub Actions for CI/CD
-  - Creating workflows
-  - Automating tests and deployments
-- GitHub Pages
-  - Setting up GitHub Pages
-  - Using Jekyll for static sites
-- GitHub Projects for project management
-- GitHub Packages for package management
-
 ## II. Python
 
 ### 1. Python Basics
