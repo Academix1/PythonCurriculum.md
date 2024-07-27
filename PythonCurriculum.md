@@ -78,7 +78,6 @@
   - Creating a new repository on GitHub
 - Cloning repositories
   - git clone command
-  - HTTPS vs SSH cloning
 - Pushing changes to remote
   - git push command
   - Understanding remotes and branches
@@ -310,9 +309,7 @@
   - Writing and running tests with pytest
   - Fixtures and plugins
 - Test-driven development (TDD) basics
-  - Red-G
-
-reen-Refactor cycle
+  - Red-Green-Refactor cycle
   - Benefits and challenges of TDD
 
 ### 13. Real-world Applications
@@ -321,7 +318,52 @@ reen-Refactor cycle
   - API development with Flask/Django
   - Data analysis and visualization projects
 
-## III. Web Development with React
+## III. SQL
+
+### 1. Introduction to Databases and SQL
+- Why databases are important
+- What is a
+
+ database?
+- What is SQL?
+- How to install MySQL database
+
+### 2. DDL Commands
+- Creating tables with `CREATE`
+- Modifying tables with `ALTER`
+- Deleting tables with `DROP`
+- Renaming tables with `RENAME`
+- Removing data with `TRUNCATE`
+
+### 3. DML Commands
+- Inserting data with `INSERT`
+- Updating data with `UPDATE`
+- Deleting data with `DELETE`
+- Retrieving data with `SELECT`
+
+### 4. Constraints
+- Primary key constraint
+- Foreign key constraint
+- Unique key constraint
+- Not null constraint
+
+### 5. SQL Clauses
+- Ordering data with `ORDER BY`
+- Filtering data with `WHERE`
+- Grouping data with `HAVING`
+
+### 6. Transactional Commands
+- Rolling back transactions with `ROLLBACK`
+- Committing transactions with `COMMIT`
+- Setting savepoints with `SAVEPOINT`
+
+### 7. Joins
+- Inner join
+- Outer join
+- Cross join
+- Full join
+
+## IV. Web Development with React
 
 ### 1. JavaScript Fundamentals
 - Variables and data types
@@ -471,7 +513,7 @@ reen-Refactor cycle
   - Netlify deployment
   - Other hosting platforms (GitHub Pages, AWS S3)
 
-## IV. Django
+## V. Django
 
 ### 1. Introduction to Django
 - What is Django?
@@ -519,7 +561,7 @@ reen-Refactor cycle
 - How to create restful APIs using Django rest framework
 - Working with Postman tool to test our restful APIs
 
-## V. AWS (Amazon Web Services)
+## VI. AWS (Amazon Web Services)
 
 ### 1. Introduction to Cloud Computing
 - Cloud computing concepts
@@ -607,10 +649,12 @@ reen-Refactor cycle
   - Defining serverless applications
   - Deploying and managing serverless apps
 
-## VI. Capstone Project
+## VII. Capstone Project
 
 - Full-stack application leveraging Python, React, Django, and AWS
   - Defining project requirements
+
+
     - Identifying project goals and objectives
     - Creating user stories and acceptance criteria
     - Determining MVP (Minimum Viable Product) features
@@ -629,9 +673,7 @@ reen-Refactor cycle
     - Implementing component structure
     - Managing state and integrating with backend API
     - Implementing routing and navigation
-   
-
- - Creating forms and handling user input
+    - Creating forms and handling user input
     - Writing unit tests for React components
   - Integrating with AWS services
     - Deploying backend to AWS (e.g., EC2 or Elastic Beanstalk)
@@ -661,7 +703,7 @@ reen-Refactor cycle
     - Creating a live demo
     - Discussing challenges and lessons learned
 
-## VII. Course Conclusion and Next Steps
+## VIII. Course Conclusion and Next Steps
 
 ### 1. Review and Reflection
 - Summarizing key learnings from each module
@@ -691,5 +733,97 @@ reen-Refactor cycle
   - Blockchain and Cryptocurrency Development
 - Resources for further learning in chosen specializations
 
+---
 
+### 3-Months Learning Schedule and 1-Month Capstone Project
 
+## Month 1: Git and GitHub, Python Basics, and Control Structures
+
+### Week 1: Git and GitHub
+- **Day 1-2:** Introduction to Version Control
+- **Day 3-4:** Git Basics
+- **Day 5:** Basic Git Commands
+
+### Week 2: Git and GitHub
+- **Day 1-2:** Branching and Merging
+- **Day 3-4:** Remote Repositories and GitHub
+- **Day 5:** Collaboration with Git and GitHub
+
+### Week 3: Git and GitHub / Python Basics
+- **Day 1-2:** Advanced Git Concepts
+- **Day 3:** GitHub Features
+- **Day 4-5:** Python Basics
+
+### Week 4: Python Basics and Control Structures
+- **Day 1-2:** Variables and operators
+- **Day 3-5:** Control Structures
+
+## Month 2: Data Structures, Functions, SQL, and Django Basics
+
+### Week 1: Data Structures
+- **Day 1-2:** Lists and Tuples
+- **Day 3:** Sets and Dictionaries
+- **Day 4-5:** List/Dictionary comprehensions
+
+### Week 2: Functions and Modules
+- **Day 1-2:** Functions
+- **Day 3-4:** Modules and Packages
+- **Day 5:** Real-world Applications
+
+### Week 3: SQL Basics
+- **Day 1:** Introduction to Databases and SQL
+- **Day 2-3:** DDL Commands
+- **Day 4-5:** DML Commands
+
+### Week 4: SQL Advanced Topics
+- **Day 1:** Constraints
+- **Day 2:** SQL Clauses
+- **Day 3:** Transactional Commands
+- **Day 4-5:** Joins
+
+## Month 3: Django, Web Development with React, and AWS Basics
+
+### Week 1: Django Basics
+- **Day 1:** Introduction to Django
+- **Day 2-3:** Getting Started
+- **Day 4-5:** Core Concepts
+
+### Week 2: Advanced Django Concepts
+- **Day 1-2:** Model Relationships
+- **Day 3:** Exception Handling
+- **Day 4-5:** Django ORM and File Handling
+
+### Week 3: Django Rest Framework (DRF)
+- **Day 1:** Introduction to DRF
+- **Day 2-3:** Creating RESTful APIs using DRF
+- **Day 4-5:** Testing APIs
+
+### Week 4: Web Development with React
+- **Day 1-2:** JavaScript Fundamentals
+- **Day 3-5:** React Basics
+
+## Month 4: Capstone Project Implementation
+
+### Week 1: Project Planning and Design
+- **Day 1-2:** Defining project requirements
+- **Day 3-5:** Designing system architecture
+
+### Week 2: Backend Implementation with Django
+- **Day 1-2:** Setting up project structure
+- **Day 3-5:** Creating API views and serializers
+
+### Week 3: Frontend Implementation with React
+- **Day 1-2:** Setting up React project with Create React App
+- **Day 3-5:** Managing state and integrating with backend API
+
+### Week 4: Deployment, Testing, and Presentation
+- **Day 1-2:** Integrating with AWS services
+- **Day 3-4:** Version control and collaboration
+- **Day 5:** Presentation and demo
+
+### Continuous Review and Reflection
+- Review and reflection at the end of each week
+- Summarizing key learnings and progress tracking
+- Identifying areas for further improvement and next steps
+
+This schedule provides a detailed 3-month plan for learning the full-stack Python curriculum and a dedicated month for implementing a capstone project.
