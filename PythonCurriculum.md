@@ -283,22 +283,23 @@
   - Substitution and splitting
 
 ### 11. External Libraries
-- requests for HTTP
+- **requests for HTTP**
   - Making GET and POST requests
   - Handling responses and errors
-- Beautiful Soup for web scraping
+- **Beautiful Soup for web scraping**
   - Parsing HTML
   - Extracting data from web pages
-- pandas for data manipulation
+- **pandas for data manipulation**
   - Working with DataFrames
   - Data analysis and transformation
-- Flask for web development
+- **FastAPI for web development**
   - Setting up and creating web applications
-  - Routing, templates, and middleware
-  - Database integration and migrations
-- NumPy for numerical operations
+  - Routing, dependency injection, and middleware
+  - Asynchronous programming and performance benefits
+  - Database integration and migrations using SQLAlchemy or Tortoise ORM
+- **NumPy for numerical operations**
   - Arrays, mathematical functions, and statistical operations
-- Matplotlib for basic data visualization
+- **Matplotlib for basic data visualization**
   - Creating plots, charts, and graphs
 
 ### 12. Testing in Python
@@ -315,16 +316,16 @@
 ### 13. Real-world Applications
 - Combine multiple libraries in projects
   - Web scraper that stores data in a database and visualizes it
-  - API development with Flask/Django
+  - API development with FastAPI/Django
+
+
   - Data analysis and visualization projects
 
 ## III. SQL
 
 ### 1. Introduction to Databases and SQL
 - Why databases are important
-- What is a
-
- database?
+- What is a database?
 - What is SQL?
 - How to install MySQL database
 
@@ -647,14 +648,14 @@
   - Step Functions for workflows
 - Serverless Framework (optional)
   - Defining serverless applications
-  - Deploying and managing serverless apps
+  - Deploy
+
+ing and managing serverless apps
 
 ## VII. Capstone Project
 
 - Full-stack application leveraging Python, React, Django, and AWS
   - Defining project requirements
-
-
     - Identifying project goals and objectives
     - Creating user stories and acceptance criteria
     - Determining MVP (Minimum Viable Product) features
@@ -724,7 +725,4 @@
 - Resume building and LinkedIn profile optimization
 - Preparing for technical interviews
 - Networking strategies in the tech industry
-
----
-
 
