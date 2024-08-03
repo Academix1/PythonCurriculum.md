@@ -650,59 +650,140 @@
   - Defining serverless applications
   - Deploy
 
-ing and managing serverless apps
+---
 
-## VII. Capstone Project
+## VII. Capstone Project: Interview App with Google Speech-to-Text and Text-to-Speech
 
-- Full-stack application leveraging Python, React, Django, and AWS
-  - Defining project requirements
-    - Identifying project goals and objectives
-    - Creating user stories and acceptance criteria
-    - Determining MVP (Minimum Viable Product) features
-  - Designing system architecture
-    - Creating high-level system design
-    - Designing database schema
-    - Planning API endpoints
-  - Implementing backend with Django
-    - Setting up project structure
-    - Implementing models and database migrations
-    - Creating API views and serializers
-    - Implementing authentication and authorization
-    - Writing unit and integration tests
-  - Creating frontend with React
-    - Setting up React project with Create React App
-    - Implementing component structure
-    - Managing state and integrating with backend API
-    - Implementing routing and navigation
-    - Creating forms and handling user input
-    - Writing unit tests for React components
-  - Integrating with AWS services
-    - Deploying backend to AWS (e.g., EC2 or Elastic Beanstalk)
-    - Setting up RDS for database
-    - Using S3 for file storage
-    - Implementing CloudFront for content delivery
-    - Setting up Route 53 for domain management
-  - Version control and collaboration
-    - Using Git for version control
-    - Creating and managing branches
-    - Conducting code reviews via pull requests
-    - Using GitHub Projects for task management
-  - Testing and quality assurance
-    - Conducting thorough testing (unit, integration, end-to-end)
-    - Performing security audits
-    - Optimizing performance
-  - Documentation
-    - Writing technical documentation
-    - Creating user guides or README files
-    - Documenting API endpoints
-  - Deployment and DevOps
-    - Setting up CI/CD pipeline with GitHub Actions
-    - Implementing monitoring and logging with CloudWatch
-    - Configuring error tracking and reporting
-  - Presentation and demo
-    - Preparing project presentation
-    - Creating a live demo
-    - Discussing challenges and lessons learned
+### Full-stack application leveraging Python, React, Django, and AWS
+
+### 1. Defining Project Requirements
+- **Identifying project goals and objectives**
+  - Create an application to facilitate mock interviews.
+  - Integrate Google Cloud's Speech-to-Text for converting spoken questions to text.
+  - Use Google Cloud's Text-to-Speech to convert text-based interview questions to speech.
+- **Creating user stories and acceptance criteria**
+  - As a user, I can speak my answers, and they will be transcribed automatically.
+  - As a user, I can listen to the questions asked by the system.
+  - As an admin, I can manage interview questions and review transcriptions.
+- **Determining MVP (Minimum Viable Product) features**
+  - Basic interview interface with speech-to-text and text-to-speech functionality.
+  - User authentication and session management.
+  - Dashboard for admins to view and manage questions and answers.
+
+### 2. Designing System Architecture
+- **Creating high-level system design**
+  - Frontend: React-based user interface.
+  - Backend: Django-powered API.
+  - Speech services: Google Cloud APIs for Speech-to-Text and Text-to-Speech.
+  - Storage: AWS S3 for storing audio files.
+  - Database: AWS RDS or DynamoDB.
+- **Designing database schema**
+  - Users table (with roles for users and admins).
+  - Questions and answers tables.
+  - Transcriptions and audio storage paths.
+- **Planning API endpoints**
+  - Endpoints for user authentication.
+  - Endpoints for managing questions and answers.
+  - Endpoints for triggering speech-to-text and text-to-speech.
+
+### 3. Implementing Backend with Django
+- **Setting up project structure**
+  - Create Django project and necessary applications.
+- **Implementing models and database migrations**
+  - Define models for users, questions, answers, and transcriptions.
+  - Set up migrations for database schema.
+- **Creating API views and serializers**
+  - Build views for managing interview sessions.
+  - Serialize data for frontend consumption.
+- **Implementing authentication and authorization**
+  - Use Django's authentication system.
+  - Set up role-based access control for users and admins.
+- **Writing unit and integration tests**
+  - Test individual components of the backend.
+  - Perform integration tests for API endpoints.
+
+### 4. Containerizing the Application
+- **Creating a Dockerfile**
+  - Define the Dockerfile to containerize the Django application.
+  - Include necessary dependencies and environment configurations.
+- **Building and testing the Docker image**
+  - Build the Docker image locally and test it.
+  - Ensure that the application runs correctly in the container.
+
+### 5. Deploying with AWS App Runner
+- **Setting up AWS App Runner**
+  - Deploy the containerized Django application using AWS App Runner.
+  - Configure App Runner with the correct environment variables and settings.
+- **Connecting to AWS RDS or DynamoDB**
+  - Ensure that the deployed application can connect to the database.
+  - Configure security groups and VPC settings as needed.
+
+### 6. Creating Frontend with React
+- **Setting up React project with Create React App**
+  - Initialize the project and configure the environment.
+- **Implementing component structure**
+  - Develop components for interview interface, login, and admin dashboard.
+- **Managing state and integrating with backend API**
+  - Use React's state management and context API.
+  - Fetch and display data from the Django backend.
+- **Implementing routing and navigation**
+  - Use React Router for navigation between different views.
+- **Creating forms and handling user input**
+  - Build forms for user registration, login, and interview responses.
+- **Writing unit tests for React components**
+  - Use Jest and React Testing Library to test components.
+
+### 7. Integrating with AWS Services
+- **Using S3 for file storage**
+  - Store audio files and other assets in S3 buckets.
+- **Implementing CloudFront for content delivery**
+  - Distribute static assets using CloudFront.
+- **Setting up Route 53 for domain management**
+  - Manage domain and DNS settings.
+
+### 8. Version Control and Collaboration
+- **Using Git for version control**
+  - Commit code regularly and use feature branches.
+- **Creating and managing branches**
+  - Follow GitFlow or another branching strategy.
+- **Conducting code reviews via pull requests**
+  - Use GitHub for code review and collaboration.
+- **Using GitHub Projects for task management**
+  - Track progress using GitHub Projects or another task management tool.
+
+### 9. Testing and Quality Assurance
+- **Conducting thorough testing (unit, integration, end-to-end)**
+  - Ensure the application is thoroughly tested before deployment.
+- **Performing security audits**
+  - Check for security vulnerabilities in the codebase.
+- **Optimizing performance**
+  - Profile and optimize both frontend and backend components.
+
+### 10. Documentation
+- **Writing technical documentation**
+  - Document the project architecture, APIs, and setup process.
+- **Creating user guides or README files**
+  - Provide detailed instructions for users and contributors.
+- **Documenting API endpoints**
+  - Use tools like Swagger or Postman to document and test APIs.
+
+### 11. Deployment and DevOps
+- **Setting up CI/CD pipeline with GitHub Actions**
+  - Automate testing, building, and deployment processes.
+- **Implementing monitoring and logging with CloudWatch**
+  - Set up monitoring for the application and infrastructure.
+- **Configuring error tracking and reporting**
+  - Use tools like Sentry for error tracking and logging.
+
+### 12. Presentation and Demo
+- **Preparing project presentation**
+  - Create a comprehensive presentation covering the project.
+- **Creating a live demo**
+  - Set up a live demo for stakeholders or potential employers.
+- **Discussing challenges and lessons learned**
+  - Reflect on the development process and outcomes.
+
+---
 
 ## VIII. Course Conclusion and Next Steps
 
