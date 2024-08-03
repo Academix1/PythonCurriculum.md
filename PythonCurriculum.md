@@ -804,3 +804,72 @@
 - Preparing for technical interviews
 - Networking strategies in the tech industry
 
+  ##########################################################
+### **60-Day Full-Stack Python Curriculum Plan (Excluding Sundays)**
+
+| **Week** | **Day** | **Date** | **Topic**                                               | **Details**                                                   |
+|----------|---------|----------|---------------------------------------------------------|----------------------------------------------------------------|
+| **1**    | 1       | Monday    | Git and GitHub                                          | Introduction to Version Control, Git Basics                   |
+| **1**    | 2       | Tuesday   | Git and GitHub                                          | Basic Git Commands (git init, git add, git commit)             |
+| **1**    | 3       | Wednesday | Python Basics                                           | Installation and setup, Python interpreter, running scripts    |
+| **1**    | 4       | Thursday  | Git and GitHub                                          | Basic Git Commands (git status, git log, git diff)             |
+| **1**    | 5       | Friday    | Git and GitHub                                          | Branching and Merging (Creating/Switching branches)            |
+| **1**    | 6       | Saturday  | Python Basics                                           | Basic syntax, data types, variables                            |
+| **2**    | 7       | Monday    | Git and GitHub                                          | Resolving merge conflicts, Practical Scenarios                 |
+| **2**    | 8       | Tuesday   | Git and GitHub                                          | Remote Repositories and GitHub, Collaboration                  |
+| **2**    | 9       | Wednesday | Python Basics                                           | Control Structures: Conditionals, Loops, Control statements    |
+| **2**    | 10      | Thursday  | Git and GitHub                                          | Advanced Git Concepts (Rebasing, Cherry-picking, Resetting)    |
+| **2**    | 11      | Friday    | Python Basics                                           | Data Structures: Lists, Tuples, Sets, Dictionaries             |
+| **2**    | 12      | Saturday  | Python Basics                                           | Functions: Defining, calling, arguments, lambda functions      |
+| **3**    | 13      | Monday    | Python Basics                                           | Modules and Packages, File Handling                            |
+| **3**    | 14      | Tuesday   | Python Basics                                           | Object-Oriented Programming: Classes, inheritance, encapsulation |
+| **3**    | 15      | Wednesday | Python Basics                                           | Exception Handling                                             |
+| **3**    | 16      | Thursday  | SQL                                                     | Introduction to Databases and SQL, DDL Commands                |
+| **3**    | 17      | Friday    | SQL                                                     | DML Commands, Constraints                                      |
+| **3**    | 18      | Saturday  | Python Basics                                           | Review and Practice                                            |
+| **4**    | 19      | Monday    | SQL                                                     | SQL Clauses: ORDER BY, WHERE, HAVING                           |
+| **4**    | 20      | Tuesday   | SQL                                                     | Transactional Commands: ROLLBACK, COMMIT, SAVEPOINT            |
+| **4**    | 21      | Wednesday | Python Basics                                           | Python Standard Library: os, sys, datetime, re                 |
+| **4**    | 22      | Thursday  | SQL                                                     | Joins: Inner, Outer, Cross, Full                               |
+| **4**    | 23      | Friday    | Web Development with React                              | JavaScript Fundamentals, ES6+ features                         |
+| **4**    | 24      | Saturday  | Python Basics                                           | Review and Practice                                            |
+| **5**    | 25      | Monday    | Web Development with React                              | React Basics: Introduction, JSX, Setting up React environment  |
+| **5**    | 26      | Tuesday   | Web Development with React                              | React Components: Functional and Class components              |
+| **5**    | 27      | Wednesday | Python Advanced                                         | External Libraries: requests, Beautiful Soup, pandas           |
+| **5**    | 28      | Thursday  | Web Development with React                              | React Hooks: useState, useEffect, Custom hooks                 |
+| **5**    | 29      | Friday    | Web Development with React                              | React Router: Routing, Navigation, Route parameters            |
+| **5**    | 30      | Saturday  | Python Advanced                                         | Advanced Python Concepts: Decorators, Generators               |
+| **6**    | 31      | Monday    | Web Development with React                              | State Management: Context API, Redux                           |
+| **6**    | 32      | Tuesday   | Web Development with React                              | Working with APIs: Fetch API, Axios, Async/Await               |
+| **6**    | 33      | Wednesday | Python Advanced                                         | FastAPI: Setting up, Routing, Database integration             |
+| **6**    | 34      | Thursday  | Web Development with React                              | Styling: CSS modules, Styled components, CSS-in-JS             |
+| **6**    | 35      | Friday    | Web Development with React                              | Testing React Applications: Jest, React Testing Library        |
+| **6**    | 36      | Saturday  | Python Advanced                                         | Testing in Python: unittest, pytest                            |
+| **7**    | 37      | Monday    | Django                                                  | Introduction, Getting Started, Core Concepts                   |
+| **7**    | 38      | Tuesday   | Django                                                  | Model Relationships, Exception Handling                        |
+| **7**    | 39      | Wednesday | Python Advanced                                         | Working with NumPy, Matplotlib for basic data visualization    |
+| **7**    | 40      | Thursday  | Django                                                  | Django Rest Framework: Creating RESTful APIs                   |
+| **7**    | 41      | Friday    | AWS                                                     | Introduction to Cloud Computing, AWS Global Infrastructure     |
+| **7**    | 42      | Saturday  | Python Advanced                                         | Review and Practice                                            |
+| **8**    | 43      | Monday    | AWS                                                     | Compute Services: EC2, Lambda                                  |
+| **8**    | 44      | Tuesday   | AWS                                                     | Storage Services: S3, EBS                                      |
+| **8**    | 45      | Wednesday | Capstone Project                                        | Defining Project Requirements, Designing System Architecture   |
+| **8**    | 46      | Thursday  | AWS                                                     | Database Services: RDS, DynamoDB                               |
+| **8**    | 47      | Friday    | AWS                                                     | Application Integration: SQS, SNS                              |
+| **8**    | 48      | Saturday  | Capstone Project                                        | Implementing Backend with Django                               |
+| **9**    | 49      | Monday    | Capstone Project                                        | Containerizing the Application, Deploying with AWS App Runner  |
+| **9**    | 50      | Tuesday   | Capstone Project                                        | Creating Frontend with React, Integrating with AWS Services    |
+| **9**    | 51      | Wednesday | Capstone Project                                        | Testing and Quality Assurance, Deployment and DevOps           |
+| **9**    | 52      | Thursday  | Capstone Project                                        | Documentation, Writing technical documentation, API documentation |
+| **9**    | 53      | Friday    | Capstone Project                                        | Presentation and Demo, Preparing project presentation          |
+| **9**    | 54      | Saturday  | Capstone Project                                        | Review, Final touches, and Practice                            |
+| **10**   | 55      | Monday    | Review and Practice                                    | Comprehensive review of Git, GitHub, and SQL                   |
+| **10**   | 56      | Tuesday   | Review and Practice                                    | Comprehensive review of Python Basics and Advanced Topics      |
+| **10**   | 57      | Wednesday | Review and Practice                                    | Comprehensive review of React and Django                       |
+| **10**   | 58      | Thursday  | Portfolio Development                                   | Refining capstone project, Creating a personal website/GitHub portfolio |
+| **10**   | 59      | Friday    | Career Preparation                                     | Resume building, LinkedIn profile optimization, Technical interview preparation |
+| **10**   | 60      | Saturday  | Networking and Continuous Learning                     | Participating in coding challenges, Contributing to open-source projects |
+
+
+
+
