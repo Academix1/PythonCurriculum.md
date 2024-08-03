@@ -513,51 +513,56 @@
 
 ## V. Django
 
-### 1. Introduction to Django
-- What is Django?
-- Features of Django
+### V. Django Framework with React as Frontend
 
-### 2. Getting Started
-- How to create a project
-- How to create an application
-- Working with complete file structure in Django after creating Django project & application
-- How to create more than one application
-- How to create a `urls.py` file at application to improve performance
+#### 1. **Introduction to Django**
+   - **What is Django?**
+   - **Features of Django**
 
-### 3. Core Concepts
-- Working with MVT design pattern
-- Working with templates folder for frontend development
-- Working with Static folder for frontend design development
-- Implementing JavaScript in Django
-- Implementing Bootstrap in Django
-- Working with model class in Django
-- Working with Django forms
+#### 2. **Getting Started**
+   - **How to create a Django project**
+   - **How to create an application**
+   - **Working with the complete file structure in Django after creating a project & application**
+   - **How to create more than one application**
+   - **Configuring settings for API development**: Adjusting settings to support API development, including middleware and CORS setup.
 
-### 4. Model Relationships
-- Working with Django model relationships
-  - One To One Relationship
-  - Many To One Relationship
-  - Many To Many Relationship
+#### 3. **Core Concepts**
+   - **Working with MVT design pattern**: Understanding the MVT (Model-View-Template) pattern but focusing on using Django primarily as a backend.
+   - **Working with model classes in Django**: Creating model classes to define the database schema.
+   - **Working with Django forms (for backend validation)**: Handling form data on the backend, even though the frontend is React.
+   - **Creating APIs with Django views**: Using Django views to create RESTful APIs that the React frontend can consume.
 
-### 5. Exception Handling
-- Django Exceptions
-  - Working with predefined exceptions
-  - Working with custom exceptions
+#### 4. **Model Relationships**
+   - **Working with Django model relationships**
+     - **One To One Relationship**
+     - **Many To One Relationship**
+     - **Many To Many Relationship**
 
-### 6. Django ORM
-- Django ORM
-- Django Cookies & Sessions implementations
-- Django Custom Routing
-- Django Image uploading
-- Django file uploading
+#### 5. **Exception Handling**
+   - **Django Exception Handling**
+   - **Working with predefined exceptions**
+   - **Working with custom exceptions**
 
-### 7. Django Rest Framework (DRF)
-- Why Django rest framework is required
-- What is API
-- What is Web API
-- What is Rest-Ful API
-- How to create restful APIs using Django rest framework
-- Working with Postman tool to test our restful APIs
+#### 6. **Django ORM**
+   - **Django ORM (Object-Relational Mapping)**: Working with Django’s ORM to interact with the database.
+   - **Django Cookies & Sessions implementations**: Managing sessions and cookies for authentication if required.
+   - **Custom routing in Django**: Customizing URLs for your API endpoints.
+   - **Handling file uploads in Django**: Implementing file and image uploads via APIs if needed.
+
+#### 7. **Django Rest Framework (DRF)**
+   - **Why Django REST Framework is required**: Understanding the role of DRF in building APIs.
+   - **What is API**
+   - **What is Web API**
+   - **What is RESTful API**
+   - **How to create RESTful APIs using Django REST Framework**: Setting up and creating RESTful endpoints using DRF.
+   - **Working with Postman tool to test our RESTful APIs**: Testing APIs with tools like Postman.
+
+#### 8. **Integrating Django with React**
+   - **CORS configuration**: Setting up Cross-Origin Resource Sharing to allow React and Django to communicate.
+   - **Serving React app (optional)**: If you want to serve your React app from Django in a monolithic deployment, place the React build files in the appropriate directory.
+   - **JWT or Session-based authentication**: Implementing authentication methods that work well with a React frontend, such as JSON Web Tokens (JWT).
+
+
 
 ## VI. AWS (Amazon Web Services)
 
