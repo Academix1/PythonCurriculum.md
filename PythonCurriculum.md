@@ -73,9 +73,6 @@
 - Introduction to GitHub
   - What is GitHub?
   - GitHub features overview
-- Creating a GitHub account and repository
-  - Setting up SSH keys
-  - Creating a new repository on GitHub
 - Cloning repositories
   - git clone command
 - Pushing changes to remote
